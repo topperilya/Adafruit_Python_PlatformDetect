@@ -19,7 +19,7 @@ with open(path.join(here, "README.rst"), encoding="utf-8") as f:
 
 setup(
     name="Adafruit-PlatformDetect",
-    use_scm_version=True,
+    #use_scm_version=True,
     setup_requires=["setuptools_scm"],
     description="Platform detection for use by libraries like Adafruit-Blinka.",
     long_description=long_description,
